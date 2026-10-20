@@ -90,7 +90,7 @@ address { font-style: normal; }
   color: var(--cream); text-decoration: none;
   font-family: var(--font-display); font-weight: 600; font-size: 1.15rem;
 }
-.brand img { border-radius: 50%; }
+.brand img { border-radius: 50%; width: 44px; height: 44px; flex: none; overflow: hidden; font-size: 0; }
 .brand:hover { color: var(--gold-light); }
 
 .nav-list { list-style: none; display: flex; gap: .4rem; margin: 0; padding: 0; flex-wrap: wrap; }
